@@ -147,7 +147,7 @@ corporate_margins = {'l' : 5, 'r' : 5, 't' : 45, 'b' : 15}  # Set top margin to 
 
 
 # DATA
-df = pd.read_csv('./tmp/data_tfm.csv')
+df = pd.read_csv('./data/data_tfm.csv')
 #data_df=df.to_dict('records')
 #columns=[{"name": i, "id": i} for i in df.columns]
 PAGE_SIZE = 10
