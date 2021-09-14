@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - ECHO "Execution of codeBuild"
+      - echo "Execution of codeBuild"
 
 artifacts:
   files:
