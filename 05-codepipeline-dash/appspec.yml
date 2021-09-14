@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /app.py
+  - source: 05-codepipeline-dash/app.py
     destination: /tmp/
-  - source: /data/
+  - source: 05-codepipeline-dash/data/
     destination: /tmp/
 hooks:
   BeforeInstall:
