@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /app.py
     destination: /tmp/
-  - source: /tmp/
+  - source: /data/
     destination: /tmp/
 hooks:
   BeforeInstall:
