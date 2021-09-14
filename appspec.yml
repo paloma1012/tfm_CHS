@@ -3,7 +3,7 @@ os: linux
 files:
   - source:/app.py
     destination: /tmp/
-  - source: /data/
+  - source: /data/data_tfm.csv
     destination: /tmp/
 hooks:
   BeforeInstall:
