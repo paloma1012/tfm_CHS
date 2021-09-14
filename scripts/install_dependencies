@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pip3 install pandas dash plotly pyarrow
+pip3 install pandas dash plotly
 
