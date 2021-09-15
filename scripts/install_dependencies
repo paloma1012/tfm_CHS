@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pip3 install pandas dash plotly dash_table numpy
+pip3 install pandas dash plotly
