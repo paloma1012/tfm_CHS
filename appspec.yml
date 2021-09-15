@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source:/app.py
-    destination: /test/
+    destination: /tmp/
   - source: /data/data_tfm.csv
-    destination: /test/
+    destination: /tmp/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
