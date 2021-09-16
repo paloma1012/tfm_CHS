@@ -5,6 +5,8 @@ files:
     destination: /tmp/
   - source: data/data_tfm.csv
     destination: /tmp/data/
+  - source: /assets/
+    destination: /tmp/assets/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
